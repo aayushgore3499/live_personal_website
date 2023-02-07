@@ -44,6 +44,7 @@ const LandingPage = () => {
         <div className="d-flex align-items-start justify-content-end" style={navigatorStretch}>
           <div className="row p-2" style={{marginTop: '10px', marginRight: '5px'}}>
             <div className="col" style={{borderRight: '2px solid white'}}><a style={{textDecoration: 'none', color: 'white'}} href="/">Home</a></div>
+            <div className="col" style={{borderRight: '2px solid white'}}><a style={{textDecoration: 'none', color: 'white'}} href="/about">About</a></div>
             <div className="col"><a style={{textDecoration: 'none', color: 'white'}} href="/projects">Projects</a></div>
           </div>
         </div>
